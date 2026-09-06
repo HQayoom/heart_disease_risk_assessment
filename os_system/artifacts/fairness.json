@@ -1,0 +1,200 @@
+{
+  "model": "Logistic Regression",
+  "threshold": 0.5025443617554415,
+  "min_n": 30,
+  "groups": {
+    "Sex": {
+      "rows": [
+        {
+          "group": "Female",
+          "n": 195,
+          "accuracy": 0.764102564102564,
+          "recall": 0.8598130841121495,
+          "tpr": 0.8598130841121495,
+          "fpr": 0.3522727272727273,
+          "fnr": 0.14018691588785046,
+          "selection_rate": 0.6307692307692307,
+          "unstable": false,
+          "note": ""
+        },
+        {
+          "group": "Male",
+          "n": 157,
+          "accuracy": 0.7070063694267515,
+          "recall": 0.6231884057971014,
+          "tpr": 0.6231884057971014,
+          "fpr": 0.22727272727272727,
+          "fnr": 0.37681159420289856,
+          "selection_rate": 0.4012738853503185,
+          "unstable": false,
+          "note": ""
+        }
+      ],
+      "demographic_parity_gap": 0.22949534541891226,
+      "equal_opportunity_gap": 0.23662467831504808,
+      "equalized_odds_gap": 0.23662467831504808,
+      "gaps_exclude_n_lt": 30
+    },
+    "Age group": {
+      "rows": [
+        {
+          "group": "40-54",
+          "n": 121,
+          "accuracy": 0.8677685950413223,
+          "recall": 0.6774193548387096,
+          "tpr": 0.6774193548387096,
+          "fpr": 0.06666666666666667,
+          "fnr": 0.3225806451612903,
+          "selection_rate": 0.2231404958677686,
+          "unstable": false,
+          "note": ""
+        },
+        {
+          "group": "55-64",
+          "n": 133,
+          "accuracy": 0.6466165413533834,
+          "recall": 0.6973684210526315,
+          "tpr": 0.6973684210526315,
+          "fpr": 0.42105263157894735,
+          "fnr": 0.3026315789473684,
+          "selection_rate": 0.5789473684210527,
+          "unstable": false,
+          "note": ""
+        },
+        {
+          "group": "65-79",
+          "n": 98,
+          "accuracy": 0.7040816326530612,
+          "recall": 0.8840579710144928,
+          "tpr": 0.8840579710144928,
+          "fpr": 0.7241379310344828,
+          "fnr": 0.11594202898550725,
+          "selection_rate": 0.8367346938775511,
+          "unstable": false,
+          "note": ""
+        }
+      ],
+      "demographic_parity_gap": 0.6135941980097824,
+      "equal_opportunity_gap": 0.20663861617578316,
+      "equalized_odds_gap": 0.6574712643678161,
+      "gaps_exclude_n_lt": 30
+    },
+    "Race": {
+      "rows": [
+        {
+          "group": "African American",
+          "n": 96,
+          "accuracy": 0.7604166666666666,
+          "recall": 0.819672131147541,
+          "tpr": 0.819672131147541,
+          "fpr": 0.34285714285714286,
+          "fnr": 0.18032786885245902,
+          "selection_rate": 0.6458333333333334,
+          "unstable": false,
+          "note": ""
+        },
+        {
+          "group": "Asian",
+          "n": 45,
+          "accuracy": 0.7555555555555555,
+          "recall": 0.375,
+          "tpr": 0.375,
+          "fpr": 0.16216216216216217,
+          "fnr": 0.625,
+          "selection_rate": 0.2,
+          "unstable": false,
+          "note": ""
+        },
+        {
+          "group": "Caucasian",
+          "n": 104,
+          "accuracy": 0.6826923076923077,
+          "recall": 0.64,
+          "tpr": 0.64,
+          "fpr": 0.2777777777777778,
+          "fnr": 0.36,
+          "selection_rate": 0.4519230769230769,
+          "unstable": false,
+          "note": ""
+        },
+        {
+          "group": "Other",
+          "n": 107,
+          "accuracy": 0.7663551401869159,
+          "recall": 0.8771929824561403,
+          "tpr": 0.8771929824561403,
+          "fpr": 0.36,
+          "fnr": 0.12280701754385964,
+          "selection_rate": 0.6355140186915887,
+          "unstable": false,
+          "note": ""
+        }
+      ],
+      "demographic_parity_gap": 0.44583333333333336,
+      "equal_opportunity_gap": 0.5021929824561403,
+      "equalized_odds_gap": 0.5021929824561403,
+      "gaps_exclude_n_lt": 30
+    }
+  },
+  "without_race": {
+    "rows": [
+      {
+        "group": "African American",
+        "n": 96,
+        "accuracy": 0.7708333333333334,
+        "recall": 0.8360655737704918,
+        "tpr": 0.8360655737704918,
+        "fpr": 0.34285714285714286,
+        "fnr": 0.16393442622950818,
+        "selection_rate": 0.65625,
+        "unstable": false,
+        "note": ""
+      },
+      {
+        "group": "Asian",
+        "n": 45,
+        "accuracy": 0.7555555555555555,
+        "recall": 0.375,
+        "tpr": 0.375,
+        "fpr": 0.16216216216216217,
+        "fnr": 0.625,
+        "selection_rate": 0.2,
+        "unstable": false,
+        "note": ""
+      },
+      {
+        "group": "Caucasian",
+        "n": 104,
+        "accuracy": 0.6826923076923077,
+        "recall": 0.64,
+        "tpr": 0.64,
+        "fpr": 0.2777777777777778,
+        "fnr": 0.36,
+        "selection_rate": 0.4519230769230769,
+        "unstable": false,
+        "note": ""
+      },
+      {
+        "group": "Other",
+        "n": 107,
+        "accuracy": 0.7570093457943925,
+        "recall": 0.8596491228070176,
+        "tpr": 0.8596491228070176,
+        "fpr": 0.36,
+        "fnr": 0.14035087719298245,
+        "selection_rate": 0.6261682242990654,
+        "unstable": false,
+        "note": ""
+      }
+    ],
+    "demographic_parity_gap": 0.45625,
+    "equal_opportunity_gap": 0.48464912280701755,
+    "equalized_odds_gap": 0.48464912280701755,
+    "gaps_exclude_n_lt": 30
+  },
+  "ablation": {
+    "with_race_test_auc": 0.7891593491735538,
+    "without_race_test_auc": 0.7884168388429752,
+    "note": "Race removed from predictors to test whether RAC is a proxy. Form still collects race for fairness audit only when the production model includes it."
+  }
+}

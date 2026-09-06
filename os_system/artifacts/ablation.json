@@ -1,0 +1,5 @@
+{
+  "with_race_test_auc": 0.7891593491735538,
+  "without_race_test_auc": 0.7884168388429752,
+  "note": "Race removed from predictors to test whether RAC is a proxy. Form still collects race for fairness audit only when the production model includes it."
+}

@@ -1,0 +1,163 @@
+{
+  "binary_youden": 0.5025443617554415,
+  "binary_accuracy": 0.5025443617554413,
+  "low_max": 0.429982154282645,
+  "moderate_max": 0.616968660326682,
+  "target_sensitivity_low": 0.8,
+  "target_specificity_high": 0.8,
+  "method": "Low/Moderate/High bands are locked on the validation set: Low is at or below the highest threshold that still yields sensitivity \u2265 0.80; High is at or above the lowest threshold that yields specificity \u2265 0.80; Moderate is the interval between. The binary fairness threshold is Youden's J (TPR\u2212FPR) on the same validation fold. Reported test accuracy uses the validation threshold that maximises accuracy. Held-out test metrics are reported separately and were not used to pick thresholds.",
+  "decision_curve": [
+    {
+      "threshold": 0.05,
+      "net_benefit": 0.47368421052631576,
+      "treat_all": 0.47368421052631576,
+      "treat_none": 0.0
+    },
+    {
+      "threshold": 0.0875,
+      "net_benefit": 0.452054794520548,
+      "treat_all": 0.452054794520548,
+      "treat_none": 0.0
+    },
+    {
+      "threshold": 0.125,
+      "net_benefit": 0.4285714285714286,
+      "treat_all": 0.4285714285714286,
+      "treat_none": 0.0
+    },
+    {
+      "threshold": 0.16249999999999998,
+      "net_benefit": 0.4051899592944369,
+      "treat_all": 0.40298507462686567,
+      "treat_none": 0.0
+    },
+    {
+      "threshold": 0.2,
+      "net_benefit": 0.38778409090909094,
+      "treat_all": 0.375,
+      "treat_none": 0.0
+    },
+    {
+      "threshold": 0.2375,
+      "net_benefit": 0.3668964232488823,
+      "treat_all": 0.3442622950819672,
+      "treat_none": 0.0
+    },
+    {
+      "threshold": 0.27499999999999997,
+      "net_benefit": 0.3557014106583072,
+      "treat_all": 0.31034482758620696,
+      "treat_none": 0.0
+    },
+    {
+      "threshold": 0.3125,
+      "net_benefit": 0.3378099173553719,
+      "treat_all": 0.2727272727272727,
+      "treat_none": 0.0
+    },
+    {
+      "threshold": 0.35,
+      "net_benefit": 0.323208041958042,
+      "treat_all": 0.23076923076923078,
+      "treat_none": 0.0
+    },
+    {
+      "threshold": 0.38749999999999996,
+      "net_benefit": 0.3032815398886828,
+      "treat_all": 0.18367346938775514,
+      "treat_none": 0.0
+    },
+    {
+      "threshold": 0.425,
+      "net_benefit": 0.27989130434782605,
+      "treat_all": 0.13043478260869562,
+      "treat_none": 0.0
+    },
+    {
+      "threshold": 0.46249999999999997,
+      "net_benefit": 0.2697542283298098,
+      "treat_all": 0.06976744186046524,
+      "treat_none": 0.0
+    },
+    {
+      "threshold": 0.49999999999999994,
+      "net_benefit": 0.24147727272727273,
+      "treat_all": 5.551115123125783e-17,
+      "treat_none": 0.0
+    },
+    {
+      "threshold": 0.5375,
+      "net_benefit": 0.20654176904176905,
+      "treat_all": -0.08108108108108103,
+      "treat_none": 0.0
+    },
+    {
+      "threshold": 0.5750000000000001,
+      "net_benefit": 0.15875668449197858,
+      "treat_all": -0.17647058823529427,
+      "treat_none": 0.0
+    },
+    {
+      "threshold": 0.6125,
+      "net_benefit": 0.1323313782991202,
+      "treat_all": -0.2903225806451615,
+      "treat_none": 0.0
+    },
+    {
+      "threshold": 0.65,
+      "net_benefit": 0.10673701298701296,
+      "treat_all": -0.4285714285714287,
+      "treat_none": 0.0
+    },
+    {
+      "threshold": 0.6875,
+      "net_benefit": 0.038636363636363635,
+      "treat_all": -0.6000000000000001,
+      "treat_none": 0.0
+    },
+    {
+      "threshold": 0.725,
+      "net_benefit": 0.013688016528925609,
+      "treat_all": -0.8181818181818181,
+      "treat_none": 0.0
+    },
+    {
+      "threshold": 0.7625000000000001,
+      "net_benefit": 0.013905502392344476,
+      "treat_all": -1.1052631578947374,
+      "treat_none": 0.0
+    },
+    {
+      "threshold": 0.8,
+      "net_benefit": -0.008522727272727279,
+      "treat_all": -1.5000000000000004,
+      "treat_none": 0.0
+    },
+    {
+      "threshold": 0.8375,
+      "net_benefit": -0.03955419580419582,
+      "treat_all": -2.0769230769230775,
+      "treat_none": 0.0
+    },
+    {
+      "threshold": 0.875,
+      "net_benefit": -0.07386363636363635,
+      "treat_all": -3.0,
+      "treat_none": 0.0
+    },
+    {
+      "threshold": 0.9125,
+      "net_benefit": -0.04788961038961037,
+      "treat_all": -4.714285714285713,
+      "treat_none": 0.0
+    },
+    {
+      "threshold": 0.95,
+      "net_benefit": 0.0,
+      "treat_all": -8.999999999999991,
+      "treat_none": 0.0
+    }
+  ],
+  "pipeline_version": "oa-v4-nhanes",
+  "split_random_state": 5
+}
